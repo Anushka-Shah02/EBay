@@ -1,0 +1,129 @@
+/* .one{
+    width:350px;
+    background-color: rgb(221, 220, 220);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.5rem;
+    padding:15px;
+    margin:30px;
+    height:170px;
+    margin-left: 35px;
+    transition: transform .2s;
+    border: 1px solid rgb(221, 220, 220);
+}
+.your{
+    color:white;
+    font-size: 2rem;
+    padding:5px;
+    border-bottom: 1px solid white;
+}
+.one:hover{
+    transform: scale(1.1);
+    opacity:0.7;
+    cursor:pointer;
+}
+.two{
+    display: flex;
+    margin-left: 30px;
+}
+.heading{
+    position: relative;
+    top:-1px;
+    margin-right: 4px;
+}
+.added{
+    position: relative;
+    bottom:25px;
+    top:2px;
+}
+.box{
+    border:1px solid rgb(68, 68, 68);
+    background-color: rgb(68, 68, 68);
+    width:430px;
+    margin-left: 40%;
+}
+
+
+
+.page{
+    overflow-y: scroll;
+    height:530px;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+    scroll-behavior: smooth; 
+}
+
+.page::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+
+.total{
+    border-top: 1px solid white;
+    display: flex;
+    color:white;
+}
+
+.amt{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.amtadd{
+    margin-top: 10px;
+    margin-left: 60%;
+    font-size: 2rem;
+}
+
+.shop{
+    color:white;
+    margin-top: 2%;
+    margin-left: 20%;
+    width:300px;
+    border-radius: 6px;
+    padding:20px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.buy{
+    background-color: #2cc6acfa;
+    color:white;
+    border: 1px solid #2cc6acfa;
+    border-radius: 5px;
+    padding:6px;
+    font-weight: 500;
+    width:50px;
+    margin-left: 5px;
+}
+
+.remove{
+    background-color: #f91616;
+    border:1px solid #f91616;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+    padding:6px;
+}
+
+.remove:hover{
+    opacity: 0.4;
+}
+
+.buy:hover{
+    opacity:0.4;
+
+}
+.carting{
+    width:180px;
+    height:180px;
+
+}
+
+.cont{
+    color:aqua;
+    font-size:1.5rem;
+} */

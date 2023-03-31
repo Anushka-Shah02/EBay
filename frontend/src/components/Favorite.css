@@ -1,0 +1,254 @@
+.onef{
+    width:350px;
+    background-color: rgb(221, 220, 220);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.5rem;
+    padding:15px;
+    margin:30px;
+    height:170px;
+    margin-left: 35px;
+    transition: transform .2s;
+    border: 1px solid rgb(221, 220, 220);
+}
+.yourf{
+    color:white;
+    font-size: 2rem;
+    padding:5px;
+    /* margin-top: 150px; */
+    font-weight: 700;
+    border-bottom: 1px solid aqua;
+    width:100px;
+    margin: auto;
+}
+.onef:hover{
+    transform: scale(1.1);
+    opacity:0.7;
+    cursor:pointer;
+}
+.twof{
+    display: flex;
+    margin-left: 30px;
+}
+.headingf{
+    position: relative;
+    top:-1px;
+    margin-right: 4px;
+}
+.addedf{
+    position: relative;
+    bottom:25px;
+    top:2px;
+}
+/* .boxf{
+    border:1px solid rgb(68, 68, 68);
+    background-color: rgb(68, 68, 68);
+    width:430px;
+    margin-left: 40%;
+} */
+
+
+
+.pagef{
+    overflow-y: scroll;
+    height:600px;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+    scroll-behavior: smooth; 
+    background-color: black;
+}
+
+.pagef::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+
+.totalf{
+    border-top: 1px solid white;
+    display: flex;
+    color:white;
+}
+
+.amtf{
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.amtaddf{
+    margin-top: 10px;
+    margin-left: 60%;
+    font-size: 2rem;
+}
+
+.shopf{
+    color:white;
+    margin-top: 2%;
+    margin-left: 300px;
+    margin-top: 10%;
+    width:300px;
+    border-radius: 6px;
+    padding:20px;
+}
+
+.btnsf{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.buyf{
+    background-color: #2cc6acfa;
+    color:white;
+    border: 1px solid #2cc6acfa;
+    border-radius: 5px;
+    padding:6px;
+    font-weight: 500;
+    width:50px;
+    margin-left: 5px;
+}
+
+.removef{
+    background-color: #f91616;
+    border:1px solid #cbbbbb;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+    padding:6px;
+}
+
+.removef:hover{
+    opacity: 0.4;
+}
+
+.buyf:hover{
+    opacity:0.4;
+
+}
+.cartingf{
+    width:180px;
+    height:180px;
+
+}
+
+.contf{
+    color:aqua;
+    font-size:1.5rem;
+}
+
+.whole-wish{
+   display: flex;
+   flex-direction: column;
+   margin-left: 20%;
+}
+
+.parts{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 20%;
+}
+.favrt-content-part{
+    margin-left: 40px;
+    text-align: left;
+    width:200px;
+    color: white;
+}
+.list-title{
+    font-size: 2.3rem;
+}
+
+.favrt-list-disc{
+    font-size: 1.3rem;
+    position: relative;
+    left:-20px;
+}
+
+.favrt-list-rate{
+    font-size: 1.7rem;
+    position: relative;
+    left:-20px;
+}
+
+.price-part{
+    margin-left: 40px;
+}
+
+.favrt-list-price{
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: underline;
+    position: relative;
+    top:-8px;
+}
+.item-img{
+    object-fit:inherit;
+    width:150px;
+    height:150px;
+}
+
+.favrt-btns{
+    position: relative;
+    top:-20px;
+    left:120px;
+}
+
+.purchase{
+    background-color: transparent;
+    color:white;
+    border:1px solid white;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding:7px;
+    margin-right: 10px;
+}
+
+.reject{
+    background-color: transparent;
+    color:white;
+    border:1px solid white;
+    border-radius: 7px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding:7px;
+}
+.mycartimg{
+    width:130px;
+    height:130px;
+    /* margin-left: 80%; */
+    object-fit: cover;
+    margin-top: 40px;
+  }
+  
+  .emptycart{
+    margin-top: 50px;
+  }
+  .continue-shop{
+    color:aqua;
+    text-decoration: underline;
+  }
+  
+  .continue-shop:hover{
+    color:rgb(247, 111, 111);
+  }
+
+  
+.shopify{
+    color:white;
+    width:300px;
+    text-align: center;
+    border-radius: 6px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .hollowcart{
+    margin-left:500px;
+    justify-content: center;
+  }
+  .your-cart{
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    top:13px;
+    left:-580px;
+  }
